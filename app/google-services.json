@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "808768289031",
+    "project_id": "disciteomnes-5a7ec",
+    "storage_bucket": "disciteomnes-5a7ec.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808768289031:android:4275dd8ad9ca343f366da2",
+        "android_client_info": {
+          "package_name": "com.matias.disciteomnes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9cOe7InoabMq-X7Td4UZW0UjSjXM-PTY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

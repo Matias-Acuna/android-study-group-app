@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    card_view:cardElevation="4dp"
+    card_view:cardCornerRadius="12dp"
+    android:foreground="?attr/selectableItemBackground"
+    android:clickable="true">
+
+    <!-- Vertical container for group details -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Group name -->
+        <TextView
+            android:id="@+id/groupName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Group Name"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+
+        <!-- Group description -->
+        <TextView
+            android:id="@+id/groupDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Group description here"
+            android:textSize="14sp"
+            android:textColor="#666" />
+
+        <!-- Group author -->
+        <TextView
+            android:id="@+id/groupAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Author: ..."
+            android:layout_marginTop="6dp"
+            android:textColor="#444" />
+
+        <!-- Group creation date -->
+        <TextView
+            android:id="@+id/groupCreatedAt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Created on: ..."
+            android:textColor="#444" />
+
+        <!-- Number of participants -->
+        <TextView
+            android:id="@+id/groupParticipants"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Participants: ..."
+            android:textColor="#444" />
+
+        <!-- Button to join the group -->
+        <Button
+            android:id="@+id/joinGroupButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Join group"
+            android:layout_marginTop="12dp"
+            android:layout_gravity="end"
+            android:textAllCaps="false"
+            android:backgroundTint="?attr/colorPrimary"
+            android:textColor="@android:color/white" />
+
+        <!-- Button to leave the group (hidden by default) -->
+        <Button
+            android:id="@+id/leaveGroupButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Leave group"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="end"
+            android:textAllCaps="false"
+            android:backgroundTint="@android:color/holo_orange_dark"
+            android:textColor="@android:color/white"
+            android:visibility="gone" />
+
+        <!-- Button to delete the group (hidden by default, for owner/admin) -->
+        <Button
+            android:id="@+id/deleteGroupButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete group"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="end"
+            android:textAllCaps="false"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:textColor="@android:color/white"
+            android:visibility="gone" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
