@@ -1,11 +1,11 @@
-# Android Study Group App 📱
+# Android Study Group App 
 
 Academic Android application developed as part of the **Applied Computer Science** degree.  
 The app allows students to register, create and manage study groups, and organize tasks within groups.
 
 ---
 
-## ✨ Features
+##  Features
 - User registration and authentication
 - Secure password storage using **SHA-256 hashing**
 - Study group creation and management
@@ -14,7 +14,7 @@ The app allows students to register, create and manage study groups, and organiz
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 - Java
 - Android Studio
 - SQLite (local database)
@@ -22,14 +22,14 @@ The app allows students to register, create and manage study groups, and organiz
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 1. Clone the repository
 2. Open the project in **Android Studio**
 3. Build and run the app on an emulator or physical device
 
 ---
 
-## 📌 What I Learned
+##  What I Learned
 - Android application architecture and activity lifecycle
 - Implementing user authentication and password hashing
 - Working with **SQLite** for persistent data storage
@@ -38,5 +38,5 @@ The app allows students to register, create and manage study groups, and organiz
 
 ---
 
-## 🎓 Context
+##  Context
 University project – **Hochschule Mainz**
